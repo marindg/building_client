@@ -1,0 +1,54 @@
+{
+  "site": {
+    "hookTitle": "Run your agency, in one place",
+    "paragraph": "Our straightforward pricing plans are tailored to meet your needs. If you're not ready to commit you can get started for free...",
+    "pricingCards": [
+      {
+        "border": false,
+        "description": "Perfect for trying out plura",
+        "duration": "",
+        "features": [
+          "3 Sub accounts",
+          "2 Team members",
+          "Unlimited pipelines"
+        ],
+        "highlight": "Key features",
+        "linkText": "Get started",
+        "price": "Free",
+        "priceId": "",
+        "routine": "/m",
+        "title": "Starter"
+      },
+      {
+        "border": true,
+        "description": "The ultimate agency kit",
+        "duration": "month",
+        "features": ["Rebilling", "24/7 Support team"],
+        "highlight": "Key features",
+        "linkText": "Get started",
+        "price": "$199",
+        "priceId": "price_1OYxkqFj9oKEERu1KfJGWxgN",
+        "routine": "/m",
+        "title": "Unlimited Saas"
+      },
+      {
+        "border": false,
+        "description": "For serious agency owners",
+        "duration": "month",
+        "features": [
+          "Unlimited Sub accounts",
+          "Unlimited Team members"
+        ],
+        "highlight": "Everything in Starter, plus",
+        "linkText": "Get started",
+        "price": "$49",
+        "priceId": "price_1OYxkqFj9oKEERu1NbKUxXxN",
+        "routine": "/m",
+        "title": "Basic"
+      }
+    ],
+    "secondHookTitle": "Choose what fits you right"
+  },
+  "smallDescription": "All in one Agency Solution",
+  "title": "Builder"
+}
