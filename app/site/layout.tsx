@@ -1,6 +1,7 @@
 "use client";
 
 import Navigation from "@/components/site/navigation";
+import { ClerkProvider } from "@clerk/nextjs";
 import React from "react";
 
 interface LayoutProps {
@@ -9,10 +10,12 @@ interface LayoutProps {
 
 function layout({ children }: LayoutProps) {
   return (
-    <main className="h-full">
-      <Navigation />
-      {children}
-    </main>
+    <ClerkProvider>
+      <main className="h-full">
+        <Navigation />
+        {children}
+      </main>
+    </ClerkProvider>
   );
 }
 
